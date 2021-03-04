@@ -8,50 +8,78 @@
 
 </head>
 <body>
-    <h1>Welcome to my site.</h1>
+    <h1>Multi-camera Human Tracking</h1>
   <div id="container">
-      <div>
-        <img src="./images/2.jpg" alt="Friends">
-      </div>
+      
+      <p>Tracking people within a video is not a new problem. It has been tackled by a lot of people in the past and several
+        solutions exist. While tracking people among multiple surveillance cameras is a relatively new problem, it is hard to
+        get right and is even a cumbersome process to do manually. Specifically, re-identifying people across multiple cameras
+        is difficult as it often results in change in posture, shape and lighting. Many of these problems have resurfaced due to
+        advancements in deep learning which has made these seemingly unsolvable problems solvable. In this report we present our
+        approach to solving this problem using the latest technologies.
+        
+        Specifically, we perform person detection using a pre-trained deep learning model YOLOv4, then we perform tracking
+        across a single camera using Kalman Filter. Lastly, we train a re-identification model on the Market-1501 dataset using
+        EfficientNet as a backend. The model achieves rank-1 accuracy of 94.27%. Then we present the results and findings by
+        using this model in inference. We also present an application which can be used to retrieve people from the videos.</p>
+      
       <div id="bio">
-          <h3>Krishna Dhakal</h3>
-          <h4>Pokhara,Nepal</h4>
-          <h4>Pulchowk Campus</h4>
+         
+          <h4>Team Onex </h4>
       </div>
-      <div id="skills">
-          <h4>Skills</h4>
-        <ol>
-            <li>Javascript and its Frameworks</li>
-            <li>Nodejs</li>
-            <li>AWS,Docker,Kubernetes</li>
-        </ol>
-      </div>
+      <div>
+            <h2>Team members:</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/Buddha.Thapa512" target="_blank">Buddha Thapa Magar - 073BCT512</a></li>
+                <li><a href="https://www.facebook.com/crishnadhakal/" target="_blank">Krishna Dhakal - 073BCT518</a></li>
+                <li><a href="https://www.facebook.com/therealkpp/" target="_blank">Krishna Prasad Panthi - 073BCT519</a></li>
+                <li><a href="https://www.facebook.com/itznabin/" target="_blank">Nabin Khanal - 073BCT524</a></li>
+            </ul>
+        </div>
       <div id="interest">
-          <h4>Interests</h4>
+          <h4>Project Interest</h4>
         <ol>
-            <li>REST Api</li>
-            <li>Serverless Architecture</li>
-            <li>Netlify</li>
-            <li>Linux</li>
+                        <li><a href="https://drive.google.com/file/d/1vDaPKNMnOzjDSiaFxYrYr_XQvtAZSHiU/view?fbclid=IwAR3RYYDg4e_FnvRL1m0rz25Mwky8JqE3Oumj544fhzsCRkJxl-O4y7zVIY0" target="_blank" rel="noopener noreferrer" >Demo 1</a></li>
+
+            <li><a href="https://www.overleaf.com/read/wxmmvdjkczfb" target="_blank" rel="noopener noreferrer" >Overleaf</a></li>
+                       <li><a href="https://www.notion.so/c58c2ff2aff9463ca6359f1193a2af94?v=c97e311fab3e4b80ae3d53456341d1b2" target="_blank" rel="noopener noreferrer" >Notion</a></li>
+                        <li><a href="https://drive.google.com/file/d/1jCcQQ96NNqSDvKGsQSS5FhyXZWkvMW1a/view?usp=sharing" target="_blank" rel="noopener noreferrer" >Mid term presentation</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1W-_yD6h-CggkBFvz_YBODbAxICfHq_Sq?usp=sharing" target="_blank" rel="noopener noreferrer" >Demo videos</a></li>
+            
         </ol>
       </div>
   </div>
   <div id="socials">
-      <h4>Socials</h4>
+      <h4>Dumps</h4>
       <ul>
-          <li><a href="https://github.com/chauchausoup/" target="_blank" rel="noopener noreferrer" >Github</a></li>
-          <li><a href="https://www.hackerrank.com/7krishna7dhakal7" target="_blank" rel="noopener noreferrer" >HackerRank</a></li>
-          <li><a href="https://twitter.com/krishna36912" target="_blank" rel="noopener noreferrer" >Twitter</a></li>
+          <li><a href="https://www.youtube.com/watch?v=Y1EFfVNDbSw" target="_blank" rel="noopener noreferrer" >Youtube 1</a></li>
+           <li><a href="https://www.youtube.com/watch?v=Y1EFfVNDbSw" target="_blank" rel="noopener noreferrer" >Youtube 2</a></li>
+           <li><a href="https://www.youtube.com/watch?v=iTO70oF4r9Q" target="_blank" rel="noopener noreferrer" >Youtube 3</a></li>
+           <li><a href="https://www.youtube.com/watch?v=BPNQqHpLSGk" target="_blank" rel="noopener noreferrer" >Youtube 4</a></li>
+           <li><a href="https://www.youtube.com/watch?v=vbfL_FOganY" target="_blank" rel="noopener noreferrer" >Youtube 5</a></li>
+           <li><a href="https://www.youtube.com/watch?v=DE6Jn2cB4J4&t=4s" target="_blank" rel="noopener noreferrer" >Youtube 6</a></li>
+           <li><a href="https://towardsdatascience.com/computer-vision-for-tracking-8220759eee85" target="_blank" rel="noopener noreferrer" >Medium 1</a></li>
+           <li><a href="https://www.intechopen.com/books/kalman-filters-theory-for-advanced-applications/kalman-filter-for-moving-object-tracking-performance-analysis-and-filter-design?fbclid=IwAR3VM3VPPPSEnGRBjmvKgph-GRnv3g6_wo7Y5SJqQcDzrz6jY_3I1GADsPQ" target="_blank" rel="noopener noreferrer" >Blog 1</a></li>
+           <li><a href="https://www.youtube.com/watch?v=U6vr3iNrwRA&list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_" target="_blank" rel="noopener noreferrer" >Youtube 7</a></li>
+          
+          
           
       </ul>
   </div>
   <div id="footer">
     <p>All rights reserved.</p>
-    <p> &copy Krishna Dhakal </p>
+    <p> &copy Team One </p>
   </div>
 
   
     
 </body>
 </html>
+
+
+
+
+
+
+
 
